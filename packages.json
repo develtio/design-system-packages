@@ -28,7 +28,7 @@
                 },
                 "autoload": {
                     "psr-4": {
-                      "Develtio\\DesignSystem\\Core\\Components\\": "src/"
+                        "Develtio\\DesignSystem\\Core\\Components\\": "src/"
                     }
                 },
                 "extra": {
@@ -69,13 +69,53 @@
                 },
                 "autoload": {
                     "psr-4": {
-                      "Develtio\\DesignSystem\\Core\\Blocks\\": "src/"
+                        "Develtio\\DesignSystem\\Core\\Blocks\\": "src/"
                     }
                 },
                 "extra": {
                     "acorn": {
                         "providers": [
                             "Develtio\\DesignSystem\\Core\\Blocks\\Providers\\BlocksProvider"
+                        ]
+                    }
+                }
+            }
+        },
+        "develtio/design-system-module-preview": {
+            "dev-master": {
+                "name": "develtio/design-system-module-preview",
+                "version": "dev-master",
+                "type": "package",
+                "license": "MIT",
+                "homepage": "https://develtio.com",
+                "description": "",
+                "source": {
+                    "url": "git@github.com:develtio/design-system-module-preview.git",
+                    "type": "git",
+                    "reference": "main"
+                },
+                "authors": [
+                    {
+                        "name": "Develtio",
+                        "email": "dev@greenparrot.pl"
+                    }
+                ],
+                "require": {
+                    "php": "^8.1",
+                    "roots/acorn": "2.1.*"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^3.6"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Develtio\\DesignSystem\\Module\\Preview\\": "src/"
+                    }
+                },
+                "extra": {
+                    "acorn": {
+                        "providers": [
+                            "Develtio\\DesignSystem\\Module\\Preview\\Providers\\PreviewProvider"
                         ]
                     }
                 }
