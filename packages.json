@@ -120,6 +120,48 @@
                     }
                 }
             }
+        },
+        "develtio/design-system-block-components": {
+            "dev-master": {
+                "name": "develtio/design-system-block-components",
+                "version": "dev-master",
+                "type": "package",
+                "license": "MIT",
+                "homepage": "https://develtio.com",
+                "description": "",
+                "source": {
+                    "url": "git@github.com:develtio/design-system-block-components.git",
+                    "type": "git",
+                    "reference": "main"
+                },
+                "authors": [
+                    {
+                        "name": "Develtio",
+                        "email": "dev@greenparrot.pl"
+                    }
+                ],
+                "require": {
+                    "php": "^8.1",
+                    "roots/acorn": "2.1.*",
+                    "develtio/design-system-core-components": "dev-master",
+                    "develtio/design-system-core-blocks": "dev-master"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^3.6"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Develtio\\DesignSystem\\Block\\Components\\": "src/"
+                    }
+                },
+                "extra": {
+                    "acorn": {
+                        "providers": [
+                            "Develtio\\DesignSystem\\Block\\Components\\Providers\\BlockComponentsProvider"
+                        ]
+                    }
+                }
+            }
         }
     }
 }
