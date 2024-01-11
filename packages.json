@@ -3,21 +3,20 @@
         "develtio/design-system-core": {
             "dev-master": {
                 "name": "develtio/design-system-core",
-                "version": "0.1.0",
+                "version": "dev-master",
                 "type": "package",
                 "license": "MIT",
                 "homepage": "https://develtio.com",
                 "description": "",
+                "source": {
+                    "url": "git@github.com:develtio/design-system-core.git",
+                    "type": "git",
+                    "reference": "main"
+                },
                 "authors": [
                     {
                         "name": "Develtio",
                         "email": "dev@greenparrot.pl"
-                    }
-                ],
-                "repositories": [
-                    {
-                        "type": "composer",
-                        "url": "https://raw.githubusercontent.com/develtio/design-system-packages/main/packages.json"
                     }
                 ],
                 "require": {
@@ -35,7 +34,7 @@
                 "extra": {
                     "acorn": {
                         "providers": [
-                            "Develtio\\DesignSystem\\Core\\Providers\\DDSCoreProvider"
+                            "Develtio\\DesignSystem\\Core\\Providers\\CoreProvider"
                         ]
                     }
                 }
