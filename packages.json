@@ -278,7 +278,7 @@
                 "extra": {
                     "acorn": {
                         "providers": [
-                            "Develtio\\DesignSystem\\Block\\Sample\\Providers\\BlockSampleProvider"
+                            "Develtio\\DesignSystem\\Providers\\BlockSampleProvider"
                         ]
                     }
                 }
