@@ -1,330 +1,329 @@
 {
-    "packages": {
-        "develtio/design-system-core": {
-            "dev-master": {
-                "name": "develtio/design-system-core",
-                "version": "dev-master",
-                "type": "package",
-                "license": "MIT",
-                "homepage": "https://develtio.com",
-                "description": "",
-                "source": {
-                    "url": "git@github.com:develtio/design-system-core.git",
-                    "type": "git",
-                    "reference": "main"
-                },
-                "authors": [
-                    {
-                        "name": "Develtio",
-                        "email": "dev@greenparrot.pl"
-                    }
-                ],
-                "require": {
-                    "php": "^8.1",
-                    "roots/acorn": "2.1.*"
-                },
-                "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.6"
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Develtio\\DesignSystem\\Core\\": "src/"
-                    }
-                },
-                "extra": {
-                    "acorn": {
-                        "providers": [
-                            "Develtio\\DesignSystem\\Core\\Providers\\CoreProvider"
-                        ]
-                    }
-                }
-            }
+  "packages": {
+    "develtio/design-system-core": {
+      "dev-master": {
+        "name": "develtio/design-system-core",
+        "version": "dev-master",
+        "type": "package",
+        "license": "MIT",
+        "homepage": "https://develtio.com",
+        "description": "",
+        "source": {
+          "url": "git@github.com:develtio/design-system-core.git",
+          "type": "git",
+          "reference": "main"
         },
-        "develtio/design-system-core-components": {
-            "dev-master": {
-                "name": "develtio/design-system-core-components",
-                "version": "dev-master",
-                "type": "package",
-                "license": "MIT",
-                "homepage": "https://develtio.com",
-                "description": "",
-                "source": {
-                    "url": "git@github.com:develtio/design-system-core-components.git",
-                    "type": "git",
-                    "reference": "main"
-                },
-                "authors": [
-                    {
-                        "name": "Develtio",
-                        "email": "dev@greenparrot.pl"
-                    }
-                ],
-                "require": {
-                    "php": "^8.1",
-                    "roots/acorn": "2.1.*"
-                },
-                "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.6"
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Develtio\\DesignSystem\\Core\\Components\\": "src/"
-                    }
-                },
-                "extra": {
-                    "acorn": {
-                        "providers": [
-                            "Develtio\\DesignSystem\\Core\\Components\\Providers\\ComponentsProvider"
-                        ]
-                    }
-                }
-            }
+        "authors": [
+          {
+            "name": "Develtio",
+            "email": "dev@greenparrot.pl"
+          }
+        ],
+        "require": {
+          "php": "^8.1",
+          "roots/acorn": "2.1.*"
         },
-        "develtio/design-system-core-blocks": {
-            "dev-master": {
-                "name": "develtio/design-system-core-blocks",
-                "version": "dev-master",
-                "type": "package",
-                "license": "MIT",
-                "homepage": "https://develtio.com",
-                "description": "",
-                "source": {
-                    "url": "git@github.com:develtio/design-system-core-blocks.git",
-                    "type": "git",
-                    "reference": "main"
-                },
-                "authors": [
-                    {
-                        "name": "Develtio",
-                        "email": "dev@greenparrot.pl"
-                    }
-                ],
-                "require": {
-                    "php": "^8.1",
-                    "log1x/acf-composer": "2.*",
-                    "roots/acorn": "2.1.*"
-                },
-                "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.6"
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Develtio\\DesignSystem\\Core\\Blocks\\": "src/"
-                    }
-                },
-                "extra": {
-                    "acorn": {
-                        "providers": [
-                            "Develtio\\DesignSystem\\Core\\Blocks\\Providers\\BlocksProvider"
-                        ]
-                    }
-                }
-            }
+        "require-dev": {
+          "squizlabs/php_codesniffer": "^3.6"
         },
-        "develtio/design-system-module-preview": {
-            "dev-master": {
-                "name": "develtio/design-system-module-preview",
-                "version": "dev-master",
-                "type": "package",
-                "license": "MIT",
-                "homepage": "https://develtio.com",
-                "description": "",
-                "source": {
-                    "url": "git@github.com:develtio/design-system-module-preview.git",
-                    "type": "git",
-                    "reference": "main"
-                },
-                "authors": [
-                    {
-                        "name": "Develtio",
-                        "email": "dev@greenparrot.pl"
-                    }
-                ],
-                "require": {
-                    "php": "^8.1",
-                    "roots/acorn": "2.1.*"
-                },
-                "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.6"
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Develtio\\DesignSystem\\Module\\Preview\\": "src/"
-                    }
-                },
-                "extra": {
-                    "acorn": {
-                        "providers": [
-                            "Develtio\\DesignSystem\\Module\\Preview\\Providers\\PreviewProvider"
-                        ]
-                    }
-                }
-            }
+        "autoload": {
+          "psr-4": {
+            "Develtio\\DesignSystem\\Core\\": "src/"
+          }
         },
-        "develtio/design-system-block-components": {
-            "dev-master": {
-                "name": "develtio/design-system-block-components",
-                "version": "dev-master",
-                "type": "package",
-                "license": "MIT",
-                "homepage": "https://develtio.com",
-                "description": "",
-                "source": {
-                    "url": "git@github.com:develtio/design-system-block-components.git",
-                    "type": "git",
-                    "reference": "main"
-                },
-                "authors": [
-                    {
-                        "name": "Develtio",
-                        "email": "dev@greenparrot.pl"
-                    }
-                ],
-                "require": {
-                    "php": "^8.1",
-                    "roots/acorn": "2.1.*",
-                    "develtio/design-system-core-components": "dev-master",
-                    "develtio/design-system-core-blocks": "dev-master"
-                },
-                "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.6"
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Develtio\\DesignSystem\\Block\\Components\\": "src/"
-                    }
-                },
-                "extra": {
-                    "acorn": {
-                        "providers": [
-                            "Develtio\\DesignSystem\\Block\\Components\\Providers\\BlockComponentsProvider"
-                        ]
-                    }
-                }
-            }
-        },
-        "develtio/design-system-structure-header": {
-            "dev-master": {
-                "name": "develtio/design-system-structure-header",
-                "version": "dev-master",
-                "type": "package",
-                "license": "MIT",
-                "homepage": "https://develtio.com",
-                "description": "",
-                "source": {
-                    "url": "git@github.com:develtio/design-system-structure-header.git",
-                    "type": "git",
-                    "reference": "main"
-                },
-                "authors": [
-                    {
-                        "name": "Develtio",
-                        "email": "dev@greenparrot.pl"
-                    }
-                ],
-                "require": {
-                    "php": "^8.1",
-                    "roots/acorn": "2.1.*",
-                    "develtio/design-system-core": "dev-master",
-                    "develtio/design-system-core-components": "dev-master",
-                    "develtio/design-system-core-blocks": "dev-master"
-                },
-                "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.6"
-                }
-            }
-        },
-        "develtio/design-system-structure-footer": {
-            "dev-master": {
-                "name": "develtio/design-system-structure-footer",
-                "version": "dev-master",
-                "type": "package",
-                "license": "MIT",
-                "homepage": "https://develtio.com",
-                "description": "",
-                "source": {
-                    "url": "git@github.com:develtio/design-system-structure-footer.git",
-                    "type": "git",
-                    "reference": "main"
-                },
-                "authors": [
-                    {
-                        "name": "Develtio",
-                        "email": "dev@greenparrot.pl"
-                    }
-                ],
-                "require": {
-                    "php": "^8.1",
-                    "roots/acorn": "2.1.*",
-                    "develtio/design-system-core": "dev-master",
-                    "develtio/design-system-core-components": "dev-master",
-                    "develtio/design-system-core-blocks": "dev-master"
-                },
-                "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.6"
-                }
-            }
-        },
-        "develtio/design-system-block-sample": {
-            "dev-master": {
-                "name": "develtio/design-system-block-sample",
-                "version": "dev-master",
-                "type": "package",
-                "license": "MIT",
-                "homepage": "https://develtio.com",
-                "description": "",
-                "source": {
-                    "url": "git@github.com:develtio/design-system-block-sample.git",
-                    "type": "git",
-                    "reference": "main"
-                },
-                "authors": [
-                    {
-                        "name": "Develtio",
-                        "email": "dev@greenparrot.pl"
-                    }
-                ],
-                "require": {
-                    "php": "^8.1",
-                    "roots/acorn": "2.1.*",
-                    "develtio/design-system-core-components": "dev-master",
-                    "develtio/design-system-core-blocks": "dev-master"
-                },
-                "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.6"
-                }
-            }
+        "extra": {
+          "acorn": {
+            "providers": [
+              "Develtio\\DesignSystem\\Core\\Providers\\CoreProvider"
+            ]
+          }
         }
+      }
+    },
+    "develtio/design-system-core-components": {
+      "dev-master": {
+        "name": "develtio/design-system-core-components",
+        "version": "dev-master",
+        "type": "package",
+        "license": "MIT",
+        "homepage": "https://develtio.com",
+        "description": "",
+        "source": {
+          "url": "git@github.com:develtio/design-system-core-components.git",
+          "type": "git",
+          "reference": "main"
+        },
+        "authors": [
+          {
+            "name": "Develtio",
+            "email": "dev@greenparrot.pl"
+          }
+        ],
+        "require": {
+          "php": "^8.1",
+          "roots/acorn": "2.1.*"
+        },
+        "require-dev": {
+          "squizlabs/php_codesniffer": "^3.6"
+        },
+        "autoload": {
+          "psr-4": {
+            "Develtio\\DesignSystem\\Core\\Components\\": "src/"
+          }
+        },
+        "extra": {
+          "acorn": {
+            "providers": [
+              "Develtio\\DesignSystem\\Core\\Components\\Providers\\ComponentsProvider"
+            ]
+          }
+        }
+      }
+    },
+    "develtio/design-system-core-blocks": {
+      "dev-master": {
+        "name": "develtio/design-system-core-blocks",
+        "version": "dev-master",
+        "type": "package",
+        "license": "MIT",
+        "homepage": "https://develtio.com",
+        "description": "",
+        "source": {
+          "url": "git@github.com:develtio/design-system-core-blocks.git",
+          "type": "git",
+          "reference": "main"
+        },
+        "authors": [
+          {
+            "name": "Develtio",
+            "email": "dev@greenparrot.pl"
+          }
+        ],
+        "require": {
+          "php": "^8.1",
+          "log1x/acf-composer": "2.*",
+          "roots/acorn": "2.1.*"
+        },
+        "require-dev": {
+          "squizlabs/php_codesniffer": "^3.6"
+        },
+        "autoload": {
+          "psr-4": {
+            "Develtio\\DesignSystem\\Core\\Blocks\\": "src/"
+          }
+        },
+        "extra": {
+          "acorn": {
+            "providers": [
+              "Develtio\\DesignSystem\\Core\\Blocks\\Providers\\BlocksProvider"
+            ]
+          }
+        }
+      }
+    },
+    "develtio/design-system-module-preview": {
+      "dev-master": {
+        "name": "develtio/design-system-module-preview",
+        "version": "dev-master",
+        "type": "package",
+        "license": "MIT",
+        "homepage": "https://develtio.com",
+        "description": "",
+        "source": {
+          "url": "git@github.com:develtio/design-system-module-preview.git",
+          "type": "git",
+          "reference": "main"
+        },
+        "authors": [
+          {
+            "name": "Develtio",
+            "email": "dev@greenparrot.pl"
+          }
+        ],
+        "require": {
+          "php": "^8.1",
+          "roots/acorn": "2.1.*"
+        },
+        "require-dev": {
+          "squizlabs/php_codesniffer": "^3.6"
+        },
+        "autoload": {
+          "psr-4": {
+            "Develtio\\DesignSystem\\Module\\Preview\\": "src/"
+          }
+        },
+        "extra": {
+          "acorn": {
+            "providers": [
+              "Develtio\\DesignSystem\\Module\\Preview\\Providers\\PreviewProvider"
+            ]
+          }
+        }
+      }
+    },
+    "develtio/design-system-block-components": {
+      "dev-master": {
+        "name": "develtio/design-system-block-components",
+        "version": "dev-master",
+        "type": "package",
+        "license": "MIT",
+        "homepage": "https://develtio.com",
+        "description": "",
+        "source": {
+          "url": "git@github.com:develtio/design-system-block-components.git",
+          "type": "git",
+          "reference": "main"
+        },
+        "authors": [
+          {
+            "name": "Develtio",
+            "email": "dev@greenparrot.pl"
+          }
+        ],
+        "require": {
+          "php": "^8.1",
+          "roots/acorn": "2.1.*",
+          "develtio/design-system-core-components": "dev-master",
+          "develtio/design-system-core-blocks": "dev-master"
+        },
+        "require-dev": {
+          "squizlabs/php_codesniffer": "^3.6"
+        },
+        "autoload": {
+          "psr-4": {
+            "Develtio\\DesignSystem\\Block\\Components\\": "src/"
+          }
+        },
+        "extra": {
+          "acorn": {
+            "providers": [
+              "Develtio\\DesignSystem\\Block\\Components\\Providers\\BlockComponentsProvider"
+            ]
+          }
+        }
+      }
+    },
+    "develtio/design-system-structure-header": {
+      "dev-master": {
+        "name": "develtio/design-system-structure-header",
+        "version": "dev-master",
+        "type": "package",
+        "license": "MIT",
+        "homepage": "https://develtio.com",
+        "description": "",
+        "source": {
+          "url": "git@github.com:develtio/design-system-structure-header.git",
+          "type": "git",
+          "reference": "main"
+        },
+        "authors": [
+          {
+            "name": "Develtio",
+            "email": "dev@greenparrot.pl"
+          }
+        ],
+        "require": {
+          "php": "^8.1",
+          "roots/acorn": "2.1.*",
+          "develtio/design-system-core": "dev-master",
+          "develtio/design-system-core-components": "dev-master",
+          "develtio/design-system-core-blocks": "dev-master"
+        },
+        "require-dev": {
+          "squizlabs/php_codesniffer": "^3.6"
+        }
+      }
+    },
+    "develtio/design-system-structure-footer": {
+      "dev-master": {
+        "name": "develtio/design-system-structure-footer",
+        "version": "dev-master",
+        "type": "package",
+        "license": "MIT",
+        "homepage": "https://develtio.com",
+        "description": "",
+        "source": {
+          "url": "git@github.com:develtio/design-system-structure-footer.git",
+          "type": "git",
+          "reference": "main"
+        },
+        "authors": [
+          {
+            "name": "Develtio",
+            "email": "dev@greenparrot.pl"
+          }
+        ],
+        "require": {
+          "php": "^8.1",
+          "roots/acorn": "2.1.*",
+          "develtio/design-system-core": "dev-master",
+          "develtio/design-system-core-components": "dev-master",
+          "develtio/design-system-core-blocks": "dev-master"
+        },
+        "require-dev": {
+          "squizlabs/php_codesniffer": "^3.6"
+        }
+      }
+    },
+    "develtio/design-system-block-sample": {
+      "dev-master": {
+        "name": "develtio/design-system-block-sample",
+        "version": "dev-master",
+        "type": "package",
+        "license": "MIT",
+        "homepage": "https://develtio.com",
+        "description": "",
+        "source": {
+          "url": "git@github.com:develtio/design-system-block-sample.git",
+          "type": "git",
+          "reference": "main"
+        },
+        "authors": [
+          {
+            "name": "Develtio",
+            "email": "dev@greenparrot.pl"
+          }
+        ],
+        "require": {
+          "php": "^8.1",
+          "roots/acorn": "2.1.*",
+          "develtio/design-system-core-components": "dev-master",
+          "develtio/design-system-core-blocks": "dev-master"
+        },
+        "require-dev": {
+          "squizlabs/php_codesniffer": "^3.6"
+        }
+      }
     },
     "develtio/design-system-structure-footer-develtio": {
-            "dev-master": {
-                "name": "develtio/design-system-structure-footer-develtio",
-                "version": "dev-master",
-                "type": "package",
-                "license": "MIT",
-                "homepage": "https://develtio.com",
-                "description": "",
-                "source": {
-                    "url": "git@github.com:develtio/design-system-structure-footer-develtio.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "authors": [
-                    {
-                        "name": "Develtio",
-                        "email": "dev@greenparrot.pl"
-                    }
-                ],
-                "require": {
-                    "php": "^8.1",
-                    "roots/acorn": "2.1.*",
-                    "develtio/design-system-core-components": "dev-master",
-                    "develtio/design-system-core-blocks": "dev-master"
-                },
-                "require-dev": {
-                    "squizlabs/php_codesniffer": "^3.6"
-                }
-            }
+      "dev-master": {
+        "name": "develtio/design-system-structure-footer-develtio",
+        "version": "dev-master",
+        "type": "package",
+        "license": "MIT",
+        "homepage": "https://develtio.com",
+        "description": "",
+        "source": {
+          "url": "git@github.com:develtio/design-system-structure-footer-develtio.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "authors": [
+          {
+            "name": "Develtio",
+            "email": "dev@greenparrot.pl"
+          }
+        ],
+        "require": {
+          "php": "^8.1",
+          "roots/acorn": "2.1.*",
+          "develtio/design-system-core-components": "dev-master",
+          "develtio/design-system-core-blocks": "dev-master"
+        },
+        "require-dev": {
+          "squizlabs/php_codesniffer": "^3.6"
         }
+      }
     }
+  }
 }
